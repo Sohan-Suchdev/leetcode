@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: "0 8 * * *" # Runs automatically every Saturday at 8:00 AM UTC
 
+# ADD THIS BLOCK: Grants the GitHub token permission to commit files
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
