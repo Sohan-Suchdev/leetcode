@@ -14,3 +14,4 @@ class Solution:
                 prev_diff = curr_diff
                 
         return count
+
